@@ -1,0 +1,61 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Pip / dependency tools
+Pipfile.lock
+poetry.lock
+
+# Test and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+
+# Django files
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker / runtime files
+*.pid
+
+# Logs directory
+logs/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
